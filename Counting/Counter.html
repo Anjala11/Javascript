@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<head>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-setInterval(counting, 1000); // here the count refers to the count function that is down below
-});
-let counter = 0;
-function counting()
-{
-counter++;
-document.querySelector('#c').innerHTML = counter;
-}
-</script>
-</head>
-<body>
-<h1 id='c'>0</h1>
-</body>
+  <head>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    setInterval(counting, 1000); // here the count refers to the count function that is down below
+    });
+    let counter = 0;
+    function counting()
+    {
+    counter++;
+    document.querySelector('#c').innerHTML = counter;
+    }
+    </script>
+  </head>
+  <body>
+    <h1 id='c'>0</h1>
+  </body>
 </html>
